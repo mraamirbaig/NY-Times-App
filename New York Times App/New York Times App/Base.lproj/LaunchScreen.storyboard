@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QJK-77-VnB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wpx-QE-t9p">
+            <objects>
+                <viewController id="QJK-77-VnB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PT2-zw-0ce">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NY Times Most Popular Articles" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsI-Mo-hui">
+                                <rect key="frame" x="49" y="226" width="277.5" height="235"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0012145241470000001" green="0.90195727349999999" blue="0.25028701250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wKX-nW-OQ9" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UsI-Mo-hui" secondAttribute="bottom" constant="8" id="03f-NS-UGi"/>
+                            <constraint firstItem="UsI-Mo-hui" firstAttribute="centerY" secondItem="wKX-nW-OQ9" secondAttribute="centerY" id="14k-mr-bp1"/>
+                            <constraint firstItem="UsI-Mo-hui" firstAttribute="centerX" secondItem="wKX-nW-OQ9" secondAttribute="centerX" id="kO0-PQ-VpO"/>
+                            <constraint firstItem="wKX-nW-OQ9" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UsI-Mo-hui" secondAttribute="trailing" constant="8" id="phk-aA-JXG"/>
+                            <constraint firstItem="UsI-Mo-hui" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wKX-nW-OQ9" secondAttribute="top" constant="8" id="qvd-VX-rjP"/>
+                            <constraint firstItem="UsI-Mo-hui" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wKX-nW-OQ9" secondAttribute="leading" constant="8" id="uHc-D1-Ugx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wKX-nW-OQ9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfA-Tw-7EE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
